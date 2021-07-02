@@ -1,0 +1,78 @@
+.u-section-1 {
+  background-image: url("images/construo.jpg");
+  background-position: 50% 50%;
+  min-height: 800px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 622px;
+  height: 188px;
+  background-image: none;
+  animation-duration: 1000ms;
+  margin: 50px auto 0 calc(((100% - 1140px) / 2) + -18px);
+}
+
+.u-section-1 .u-text-1 {
+  animation-duration: 1000ms;
+  font-family: Philosopher;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: -188px calc(((100% - 1140px) / 2) + 536px) 0 calc(((100% - 1140px) / 2));
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    min-height: 559px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-left: calc(((100% - 940px) / 2) + -18px);
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 940px) / 2) + 336px);
+    margin-left: calc(((100% - 940px) / 2));
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-shape-1 {
+    margin-left: calc(((100% - 720px) / 2) + -18px);
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 720px) / 2) + 116px);
+    margin-left: calc(((100% - 720px) / 2));
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 {
+    min-height: 512px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 540px;
+    margin-left: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 540px) / 2));
+    margin-left: calc(((100% - 540px) / 2));
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 {
+    min-height: 426px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 340px;
+    margin-left: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 340px) / 2));
+    margin-left: calc(((100% - 340px) / 2));
+  }
+}

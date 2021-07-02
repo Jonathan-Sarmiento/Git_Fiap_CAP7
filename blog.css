@@ -1,0 +1,78 @@
+.u-section-1 {
+  background-image: url("images/construo.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 820px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 622px;
+  height: 188px;
+  background-image: none;
+  animation-duration: 1000ms;
+  margin: 64px 545px 0 -27px;
+}
+
+.u-section-1 .u-text-1 {
+  animation-duration: 1000ms;
+  font-family: Philosopher;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: -188px 545px 60px -9px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 676px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-right: 445px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 445px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 518px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-right: 285px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 285px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 389px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 540px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 245px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 340px;
+  }
+}
